@@ -1,2 +1,16 @@
 # gudrunsara.github.io
-Portfolio
+
+# What is it? 
+
+# Installation & Set Up
+
+# Build & Run
+
+# Color codes 
+
+# Forking the repo 
+
+# Illustrations
+
+
+
