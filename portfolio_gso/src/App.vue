@@ -2,7 +2,6 @@
   <div id="app">
     <section id="Header" class="">
       <NavBar />
-      <a href="#Contact">Contact</a>
     </section>
     <section id="About" class="big-and-red"></section>
     <section id="Timeline" class="big-and-blue"></section>
