@@ -1,4 +1,4 @@
-# gudrunsara.github.io
+### gudrunsara.github.io
 
 # Coding standards 
 
@@ -55,19 +55,19 @@ export default {
 
 ## Name standards
 
-**Component names**
+**Component names**  
 Component names must be multi-word names in Pascal case.
 ```
 NavBar.vue
 ```  
 
-**CSS class names**
+**CSS class names**  
 CSS class names are written in all lowercase letters with a dash between words.
 ```
 css-class-name
 ```  
 
-**Methods/functions names**
+**Methods/functions names**  
 Javascript function names are written in Camel case.
 ```
 functionName()
