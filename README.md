@@ -1,8 +1,8 @@
 # gudrunsara.github.io
 
-## Coding standards 
+# Coding standards 
 
-# Comments 
+## Comments 
 **HTML Comments**  
 Comments within HTML start with a capital letter and end with a semicolon.  
 ```
@@ -21,12 +21,37 @@ Comments that describe the components functionality start with a dash and a star
 /*
   Component: 
   Description:
-  Props
+  Props:
 */
 ```  
- 
- # Component structure
- 
+
+ ## Component structure
+Each component is structured in the following way.
+```
+<template>
+  <div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "", 
+  data() {
+
+  },
+  computed: {},
+  created: {}, // To access reactive data and events, templates and Virtual DOM have not yet been mounted or rendered.
+  mounted() {} // To access the reactive component, templates, and rendered DOM (via. this.$el).
+  methods: {}
+  Components: {}
+  Props: {}
+};
+</script>
+
+<style scoped>
+
+</style>
+``` 
 
 # What is it? 
 
