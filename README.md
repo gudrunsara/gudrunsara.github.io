@@ -16,7 +16,7 @@ Comments within JavaScript start with a capital letter and end with a dot.
 ```  
 
 **Component Description Comments**  
-Comments that describe the components functionality start with a dash and a star, and have the following structure.
+Comments that describe the components functionality start with a slash and a star, and have the following structure.
 ```
 /*
   Component: 
@@ -25,7 +25,7 @@ Comments that describe the components functionality start with a dash and a star
 */
 ```  
 
- ## Component structure
+## Component structure
 Each component is structured in the following way.
 ```
 <template>
@@ -52,6 +52,26 @@ export default {
 
 </style>
 ``` 
+
+# Name standards. 
+
+**Component names**
+Component names must be multi-word names in Pascal case.
+```
+NavBar.vue
+```  
+
+**CSS class names**
+CSS class names are written in all lowercase letters with a dash between words.
+```
+css-class-name
+```  
+
+**Methods/functions names**
+Javascript function names are written in Camel case.
+```
+functionName()
+```  
 
 # What is it? 
 
