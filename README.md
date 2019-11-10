@@ -53,7 +53,7 @@ export default {
 </style>
 ``` 
 
-# Name standards. 
+## Name standards
 
 **Component names**
 Component names must be multi-word names in Pascal case.
