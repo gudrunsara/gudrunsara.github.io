@@ -1,7 +1,7 @@
 <template>
-  <div class="border">
+  <div class="border navigation-bar-under-header">
     <b-navbar>
-      <b-navbar-brand href="#About"> Gudrun </b-navbar-brand>
+      <b-navbar-brand href="#About"> Gudrun Sara Ornolfsdottir</b-navbar-brand>
       <b-navbar-nav>
         <b-nav-item href="#About">About</b-nav-item>
         <b-nav-item href="#Timeline">Timeline</b-nav-item>
@@ -19,9 +19,17 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<!-- Add "scoped" attribute to limit CSS to this component only. -->
 <style scoped>
-.border {
-  border: 1pt solid lightgray;
+.navigation-bar-under-header {
+
+}
+.navigation-bar-above-sections {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 200;
+  background-color: white;
 }
 </style>
