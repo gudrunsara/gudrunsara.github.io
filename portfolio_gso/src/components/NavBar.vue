@@ -1,7 +1,7 @@
 <template>
   <div class="border navigation-bar-under-header">
     <b-navbar>
-      <b-navbar-brand href="#About"> Gudrun Sara Ornolfsdottir</b-navbar-brand>
+      <b-navbar-brand href="#About"> Gudruno Sara Ornolfsdottir</b-navbar-brand>
       <b-navbar-nav>
         <b-nav-item href="#About">About</b-nav-item>
         <b-nav-item href="#Timeline">Timeline</b-nav-item>
@@ -22,14 +22,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only. -->
 <style scoped>
 .navigation-bar-under-header {
-
+  position: sticky;
+  top: 0px;
+  background-color: purple;
 }
-.navigation-bar-above-sections {
+/*.navigation-bar-above-sections {
   position: fixed;
   left: 0;
   top: 0;
   width: 100vw;
   z-index: 200;
   background-color: white;
-}
+}*/
 </style>
