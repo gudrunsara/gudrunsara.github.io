@@ -5,7 +5,9 @@
     <NavBar />
     <!-- Site sections: -->
     <div class="site-body">
-      <section id="About" class="big-and-red"></section>
+      <section id="About" class="big-and-red">
+        <About />
+      </section>
       <section id="Timeline" class="big-and-blue"></section>
       <section id="Portfolio" class="big-and-green"></section>
       <section id="Contact" class="big-and-yellow"></section>
@@ -16,12 +18,14 @@
 <script>
 import Header from "./components/Header.vue";
 import NavBar from "./components/NavBar.vue";
+import About from "./components/about/About";
 
 export default {
   name: "app",
   components: {
     Header,
-    NavBar
+    NavBar,
+    About
   }
 };
 </script>
@@ -46,6 +50,7 @@ export default {
 .big-and-red {
   height: 600px;
   width: 100%;
+  border: 1pt solid black;
   background-color: red;
 }
 .big-and-blue {
